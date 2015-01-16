@@ -1,0 +1,28 @@
+{
+  "name": "fig-dns",
+  "version": "0.1.0",
+  "author": {
+    "name": "Juan Wajnerman",
+    "email": "jwajnerman@manas.com.ar"
+  },
+  "description": "DNS server for Docker containers managed by Fig",
+  "main": "fig-dns.js",
+  "dependencies": {
+    "dockerode": "^2.0.6",
+    "async": "^0.9.0",
+    "node-named": "^0.0.1"
+  },
+  "devDependencies": {},
+  "bin": {
+    "fig-dns": "fig-dns.js"
+  },
+  "scripts": {
+    "start": "node fig-dns.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "fig",
+    "dns"
+  ]
+}
