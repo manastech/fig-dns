@@ -6,6 +6,11 @@
     "email": "jwajnerman@manas.com.ar"
   },
   "description": "DNS server for Docker containers managed by Fig",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/manastech/fig-dns.git"
+  },
+  "homepage": "https://github.com/manastech/fig-dns.git",
   "main": "fig-dns.js",
   "dependencies": {
     "dockerode": "^2.0.6",
